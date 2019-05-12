@@ -27,9 +27,14 @@ $ docker exec -it fcgi bash
 http://localhost:3000/hello.html
 
 
-## コンテナ内からテスト
+## FastCGI
+### CGI::Fast
 ↓にアクセスして、環境変数の内容がプリントされること。
 http://localhost:3000/fcgi-bin/index.fcgi
+
+## FCGI
+↓にアクセスして、環境変数の内容がプリントされること。
+http://localhost:3000/fcgi-bin/fcgi.fcgi
 
 ## 後始末
 
